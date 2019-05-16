@@ -12,8 +12,10 @@ Refference: https://www.cheezycode.com/p/android.html
 
 
 Main Activity: This is the screen which shows up upon app startup
-![Main_Screen](https://i.imgur.com/VJBpqdk.png)
+![Main_Screen](https://i.imgur.com/ys5ow6c.png)
 
+Share Button Pressed: On the main screen when share is pressed, implicit intent is is implemented
+![ShareButton] (https://i.imgur.com/AciLxa0.png)
 
 Game Activity: During game play, this screen is shown. Timer, Score, Question and Result values get updated
 ![GameScreen](https://i.imgur.com/zxNawBg.png)
