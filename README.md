@@ -12,7 +12,7 @@ Refference: https://www.cheezycode.com/p/android.html
 
 
 Main Activity: This is the screen which shows up upon app startup
-![Main_Screen](https://imgur.com/WyiB3ZY)
+![Main_Screen](https://imgur.com/zxNawBg)
 
 
 Game Activity: During game play, this screen is shown. Timer, Score, Question and Result values get updated
