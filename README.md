@@ -20,5 +20,5 @@ Game Activity: During game play, this screen is shown. Timer, Score, Question an
 
 
 Score Activity: Upon the end of game, the final score is displayed on this screen
-![ScoreScreen](https://imgur.com/gPbbwGy)
+![ScoreScreen](https://i.imgur.com/m6DacqK.png)
 
