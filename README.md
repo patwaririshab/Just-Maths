@@ -16,7 +16,7 @@ Main Activity: This is the screen which shows up upon app startup
 
 
 Game Activity: During game play, this screen is shown. Timer, Score, Question and Result values get updated
-
+![GameScreen]([img]https://i.imgur.com/zxNawBg.png[/img])
 
 
 Score Activity: Upon the end of game, the final score is displayed on this screen
