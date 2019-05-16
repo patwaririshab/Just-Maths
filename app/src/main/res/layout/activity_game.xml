@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:id="@+id/TopBar">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="30sp"
+            android:gravity="left"
+            android:id="@+id/txtTime"
+            android:text="Time:59"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="30sp"
+            android:gravity="right"
+            android:id="@+id/txtScore"
+            android:text="Score:00"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:divider="@color/colorAccent"
+        android:layout_below="@id/TopBar"
+        android:background="@color/colorPrimary"
+        android:id="@+id/divider">
+    </View>
+
+    <LinearLayout
+        android:id="@+id/MidBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ButtonBar"
+        android:layout_below="@id/divider"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23+42"
+            android:textSize="70sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txtViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="= 65"
+            android:textSize="70sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/ButtonBar">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCorrect"
+            android:layout_weight="1"
+            android:background="#CA171B"
+            android:src="@drawable/baseline_check_white_36"
+            android:paddingTop="25dp"
+            android:paddingBottom="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnWrong"
+            android:layout_weight="1"
+            android:background="#CA171B"
+            android:src="@drawable/baseline_clear_white_36"
+            android:paddingTop="25dp"
+            android:paddingBottom="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFDED4"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Just Maths"
+            android:textSize="70sp" />
+
+        <ImageButton
+            android:id="@+id/btnRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tV1"
+            android:layout_alignRight="@id/tV1"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="36dp"
+            android:backgroundTint="#C0392B"
+            android:tint="#FFFF"
+            app:srcCompat="@drawable/baseline_star_rate_white_48" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tV1"
+            android:layout_alignLeft="@id/tV1"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="82dp"
+            android:backgroundTint="#C0392B"
+            android:tint="#FFFF"
+            app:srcCompat="@drawable/baseline_share_white_48" />
+
+        <ImageButton
+            android:id="@+id/btnGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tV1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#C0392B"
+            android:tint="#FFFF"
+            app:srcCompat="@drawable/baseline_play_arrow_white_48" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
