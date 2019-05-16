@@ -12,11 +12,11 @@ Refference: https://www.cheezycode.com/p/android.html
 
 
 Main Activity: This is the screen which shows up upon app startup
-![Main_Screen](https://imgur.com/zxNawBg)
+![Main_Screen](https://i.imgur.com/VJBpqdk.png)
 
 
 Game Activity: During game play, this screen is shown. Timer, Score, Question and Result values get updated
-![GameScreen]([img]https://i.imgur.com/zxNawBg.png[/img])
+![GameScreen](https://i.imgur.com/zxNawBg.png)
 
 
 Score Activity: Upon the end of game, the final score is displayed on this screen
